@@ -48,6 +48,17 @@ class Nav extends Component {
 			            <ul className="nav navbar-nav navbar-right">
 			              <li><a href="cart"><img src="images/shopping-cart.png" alt=""/>	Giỏ hàng</a></li>
 			              <li><a href="rules"><img src="images/list.png" alt />  Quy định</a></li>
+			              {/*<li><a href="" className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><img src="images/login.png" alt /> Đăng nhập</a></li>
+			              <li className="dropdown">
+							  <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nguyễn Văn Thưởng <span className="caret" /></a>
+							  <ul className="dropdown-menu">
+							    <li><a href="#">Cá nhân</a></li>
+							    <li role="separator" className="divider" />
+							    <li><a href="#">Đơn hàng</a></li>
+							    <li role="separator" className="divider" />
+							    <li><a href="#">Đăng xuất</a></li>
+							  </ul>
+						  </li>*/}
 						  {this.showButton() }
 			            </ul>
 			          </div>{/* /.navbar-collapse */}

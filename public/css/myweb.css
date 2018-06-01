@@ -15,6 +15,11 @@ div.modal-content{
 	padding-top: 15px;
 }
 
+#ColorSelect{
+	background: LightGray;
+
+}
+
 #fixNav{
   width: 90%;
   height: 35px;
